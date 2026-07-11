@@ -195,7 +195,7 @@
           }
         }
     </script>
-        <script type='application/ld+json'>
+    <script type='application/ld+json'>
       {
         &quot;@context&quot;:&quot;https://schema.org&quot;,
         &quot;@type&quot;:&quot;BreadcrumbList&quot;,

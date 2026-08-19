@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/light_logo.png" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/dark_logo.png" />
-      <img src="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/dark_logo.png" alt="CodeHemu logo" width="412px" />
+      <img src="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/dark_logo.png" alt="CodeHemu logo" width="350px" />
     </picture>
   </a>
 </p>

@@ -1,12 +1,16 @@
-# CodeHemu — Learn to Code for Free
-
-<p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibfEaHK5i5QdZPS_FtKof53gEPPCHCdcM-CGskO4h36fB4IaJVNdZ3-WMs5XGRDYpxIu29CSkBQDZH0l1WTrh_Y5mSIjE2zEtHUkjWFdGKOzsDzwRlCO11UBTC2ymApogt6ZA9c7sclYnnbiuUVvHtMiBL20mJgfzzlb00NlUk3rdTKXMej9VDH0qoBlQ/s1600/codehemu-banner.png" alt="CodeHemu Banner" width="600"/>
+<p>
+  <a href="https://github.com/code-hemu/codehemu">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/light_logo.png" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/dark_logo.png" />
+      <img src="https://raw.githubusercontent.com/code-hemu/codehemu/refs/heads/main/resources/dark_logo.png" alt="CodeHemu logo" width="412px" />
+    </picture>
+  </a>
 </p>
 
 > **Our mission is simple:** help people learn to code for free.
 
-CodeHemu is a free developer resource hub publishing tutorials, code snippets, CSS art, small JavaScript tools, and step-by-step build guides. Whether you are a total beginner or an intermediate developer exploring animation, CSS art, or programming languages, there is something here for you.
+CodeHemu is a free developer resource hub with tutorials, code snippets, CSS art, JavaScript tools, and simple step-by-step guides. Whether you're a beginner or an intermediate developer, you'll find useful resources to learn and build. Learn more about CodeHemu on our [About page](https://www.codehemu.in/p/about.html).
 
 [![Website](https://img.shields.io/badge/Website-codehemu.in-00c2ff?style=flat-square)](https://www.codehemu.in)
 [![YouTube](https://img.shields.io/badge/YouTube-CodeHemu-ff0000?style=flat-square)](https://www.youtube.com/@CodeHemu)
@@ -14,32 +18,13 @@ CodeHemu is a free developer resource hub publishing tutorials, code snippets, C
 [![Facebook](https://img.shields.io/badge/Facebook-CodeHemu-1877F2?style=flat-square)](https://www.facebook.com/codehemu)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
----
+## Why CodeHemu?
 
-## About Us
-
-**CodeHemu** is a growing community-driven learning platform focused on web design and development. We publish content that is practical, visual, and fun — teaching you how to build things you can see and use, not just theory.
-
-### What we cover
-
-| Topic | What you will learn |
-| ----- | ------------------- |
-| **HTML** | Structure, lists, project layout, semantic markup |
-| **CSS** | Positioning, animations, flexbox, layout systems |
-| **JavaScript** | Logic, math engines, browser APIs, tool building |
-| **CSS Art** | Drawing animals and objects with pure CSS |
-| **Build Projects** | Complete, usable tools built step by step |
-| **Python & Tooling** | Scripts, automation, ADB, and developer workflows |
-
-### Why CodeHemu?
-
-- **100% free** — no paywalls, no premium tiers, ever.
-- **Hands-on** — every tutorial ends with working code you can copy.
-- **Visual-first** — CSS art and animations to keep learning fun.
-- **Step-by-step** — clear, beginner-friendly instructions.
-- **Practical** — build real tools like calculators, QR code generators, and image compressors.
-
----
+- **100% free** - no paywalls, no premium tiers, ever.
+- **Hands-on** - every tutorial ends with working code you can copy.
+- **Visual-first** - CSS art and animations to keep learning fun.
+- **Step-by-step** - clear, beginner-friendly instructions.
+- **Practical** - build real tools like calculators, QR code generators, and image compressors.
 
 ## Featured Articles
 
@@ -77,75 +62,6 @@ Pick a topic and start building today:
 
 > Browse the full library: [All Posts](https://www.codehemu.in/) · [CSS Art Gallery](https://www.codehemu.in/search/label/css%20art) · [Build Projects](https://www.codehemu.in/search/label/build)
 
----
-
-## Repository Overview
-
-This repository hosts the **CodeHemu Blogger theme** — a custom, SEO-optimized, responsive template.
-
-```
-codehemu/
-├── template/
-│   ├── theme.xml      # Blogger XML theme (layout, widgets, CSS, markup)
-│   └── main.js        # Un-minified source of the theme's JavaScript
-├── README.md
-└── LICENSE
-```
-
-### Theme features
-
-- **SEO built-in** — Open Graph, Twitter Cards, canonical URLs, and `noindex` rules
-- **Rich Schema (JSON-LD)** — `WebSite`, `Organization`, `WebPage`, `Article`, `BreadcrumbList`, `FAQPage`, `ContactPage`
-- **Responsive layout** — desktop, tablet, and mobile breakpoints
-- **Featured & hot post sections** — auto-fetch posts from Blogger feeds
-- **Mega menu + mobile slide menu** — with submenu toggles
-- **Live search** overlay in the navigation bar
-- **Related posts** under every article
-- **Sticky sidebar** via [StickyGum](https://www.npmjs.com/package/stickygum)
-- **Cookie consent banner** with `localStorage` persistence
-- **Load-more pagination** and numbered page navigation
-- **Social sharing** — Facebook, Pinterest, WhatsApp, Email
-- **Back-to-top button** and smooth scrolling
-- **Ad-ready** — header, in-post, and inline ad units (AdSense)
-
----
-
-## Installation
-
-1. Go to **Blogger Dashboard → Theme**.
-2. Click the arrow next to **Customize** and choose **Edit HTML**.
-3. Select **all** existing content, delete it, and paste the contents of `template/theme.xml`.
-4. Click **Save**.
-5. Open the **Layout** tab to add/remove widgets (Featured Posts, Hot Posts, Social, etc.).
-
-> **Tip:** Always keep a backup of your current theme before switching.
-
-### Making JS edits
-
-`main.js` is the readable source. The theme also embeds a minified copy of it inside `theme.xml` (in the `<script>` block near the end of the file). After editing `main.js`:
-
-1. Minify it (e.g. with [terser](https://terser.org) or any minifier).
-2. Replace the inlined script in `theme.xml`.
-3. Re-upload the theme to Blogger.
-
----
-
-## Usage & Configuration
-
-Most sections are configured from the Blogger **Layout** editor using simple text widgets:
-
-| Widget | Content value | Purpose |
-| ------ | ------------- | ------- |
-| Hot Posts | `random/hot-posts` | Trending slider on the homepage |
-| Featured Posts | `5/python/col-left` | Category blocks (count / label / layout) |
-| Featured Big | `python/feat-big` | Hero-style featured posts |
-| Recent Posts | `3/recent/post-list` | Footer recent list |
-| Footer Columns | `3/css%20art/post-list` | Footer list by label |
-
-The theme auto-detects the layout keyword (`mega-menu`, `hot-posts`, `col-left`, `feat-big`, `post-list`, `related`) and renders the matching markup.
-
----
-
 ## Contributing
 
 Contributions are welcome! Found a bug, want a new feature, or have a tutorial to share?
@@ -160,12 +76,7 @@ You can also reach us via:
 - YouTube: <https://www.youtube.com/@CodeHemu>
 - Facebook: <https://www.facebook.com/codehemu>
 
----
 
 ## License
 
-This project is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it — a credit link back to [codehemu.in](https://www.codehemu.in) is appreciated.
-
----
-
-<p align="center">Made with ❤️ in India — <a href="https://www.codehemu.in">CodeHemu</a></p>
+This project is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute. Credit link back to [codehemu.in](https://www.codehemu.in) is appreciated.

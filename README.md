@@ -79,4 +79,4 @@ You can also reach us via:
 
 ## License
 
-This project is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute. Credit link back to [codehemu.in](https://www.codehemu.in) is appreciated.
+This project is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute.

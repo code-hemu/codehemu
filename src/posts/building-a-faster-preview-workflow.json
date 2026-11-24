@@ -1,0 +1,21 @@
+{
+  "id": "building-a-faster-preview-workflow",
+  "type": "post",
+  "title": "Building a faster preview workflow",
+  "slug": "building-a-faster-preview-workflow",
+  "content": "<p>Good templates deserve a fast feedback loop. This example shows how to turn a Blogger template into a real preview without waiting for a full deployment.</p><h2>Start with the source</h2><p>Keep <code>src/template.xml</code> as the single source of truth. The compiler reads sections, widgets and data expressions directly from the template, so the preview always reflects the markup you will publish.</p><h2>Work in small steps</h2><ul><li>Edit a widget, then check the matching preview page immediately.</li><li>Use the layout editor to move sections without rewriting XML by hand.</li><li>Save changes only after the preview and validation results look right.</li></ul><blockquote>Short loops make design decisions easier to verify and cheaper to undo.</blockquote><p>The result is a workflow that feels like working on a normal site while still respecting the structure of a Blogger template.</p>",
+  "status": "published",
+  "createdAt": "2026-11-21T09:30:00.000Z",
+  "updatedAt": "2026-11-21T09:30:00.000Z",
+  "publishedAt": "2026-11-21T09:30:00.000Z",
+  "publishAt": "2026-11-21T09:30:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "Turn a Blogger template into a real preview with a short, repeatable feedback loop.",
+  "labels": [
+    "Workflow",
+    "Tools"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

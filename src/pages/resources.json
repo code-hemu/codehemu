@@ -1,0 +1,14 @@
+{
+  "id": "resources",
+  "type": "page",
+  "title": "Resources",
+  "slug": "resources",
+  "content": "<p>Use this page as a reading list for the example project. Each item focuses on a different part of turning a Blogger template into a maintainable static site.</p><h2>Template structure</h2><ul><li>Keep sections and widgets in the layout editor.</li><li>Inspect generated HTML to see how includes are expanded.</li><li>Use validation messages to find malformed markup early.</li></ul><h2>Content workflow</h2><ul><li>Write posts and pages as JSON files.</li><li>Use the dashboard preview to test changes before publishing.</li><li>Rebuild to generate dated post routes and short page routes.</li></ul><h2>Design checks</h2><p>Review the home page, a post, a label archive, search results and this page before calling a template finished. They exercise different data contexts and reveal different layout problems.</p>",
+  "status": "published",
+  "createdAt": "2026-11-10T08:15:00.000Z",
+  "updatedAt": "2026-11-21T10:15:00.000Z",
+  "publishedAt": "2026-11-10T08:15:00.000Z",
+  "publishAt": "2026-11-10T08:15:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null
+}

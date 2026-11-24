@@ -1,0 +1,14 @@
+{
+  "id": "privacy-policy",
+  "type": "page",
+  "title": "Privacy policy",
+  "slug": "privacy-policy",
+  "content": "<p>This example site does not collect personal information. It exists to demonstrate how Blogger content is compiled into static pages.</p><h2>Content files</h2><p>Posts and pages are stored as JSON in the project. Anything you write into those files is part of the example and can be edited or removed locally.</p><h2>Browser storage</h2><p>Dashboard settings in the preview are stored in browser local storage. They are for demonstration only and do not modify the template or send data to a server.</p><h2>External links</h2><p>Links to documentation or project pages follow the privacy practices of those sites. Review their policies before relying on them for production content.</p>",
+  "status": "published",
+  "createdAt": "2026-11-10T08:10:00.000Z",
+  "updatedAt": "2026-11-21T10:10:00.000Z",
+  "publishedAt": "2026-11-10T08:10:00.000Z",
+  "publishAt": "2026-11-10T08:10:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null
+}

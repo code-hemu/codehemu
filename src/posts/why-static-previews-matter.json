@@ -1,0 +1,21 @@
+{
+  "id": "why-static-previews-matter",
+  "type": "post",
+  "title": "Why static previews matter",
+  "slug": "why-static-previews-matter",
+  "content": "<p>A static preview is more than a screenshot. It is a build artifact you can inspect, share and compare over time.</p><h2>Deterministic output</h2><p>Because the renderer reads the same JSON files as the site build, repeated runs produce the same pages. That makes visual regressions easier to spot and removes the excuse of works on my machine.</p><h2>Real routes</h2><p>Posts, pages, labels, archives and search each get a real file path. You can open the result directly, test navigation and confirm that route rules behave as expected.</p><h2>Better collaboration</h2><p>Designers can review generated HTML without running a server, and writers can see their content in context before it goes live. Static previews turn the template into something the whole team can inspect.</p>",
+  "status": "published",
+  "createdAt": "2026-11-11T09:05:00.000Z",
+  "updatedAt": "2026-11-11T09:05:00.000Z",
+  "publishedAt": "2026-11-11T09:05:00.000Z",
+  "publishAt": "2026-11-11T09:05:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "Static previews make Blogger templates deterministic, shareable and easy to review.",
+  "labels": [
+    "Preview",
+    "Workflow"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

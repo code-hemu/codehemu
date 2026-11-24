@@ -1,0 +1,14 @@
+{
+  "id": "contact",
+  "type": "page",
+  "title": "Contact",
+  "slug": "contact",
+  "content": "<p>Have a question about this example or the Guchho Blogger plugin? Use the details below as a starting point for your own contact page.</p><h2>Project questions</h2><p>For plugin questions, open an issue in the project repository with a short description, the template snippet involved and the command you ran.</p><h2>Template feedback</h2><p>If something in the preview looks wrong, include the generated route and any diagnostic shown by the build. That usually makes the cause much easier to trace.</p><blockquote>Replace these paragraphs with your own contact details before publishing a real site.</blockquote>",
+  "status": "published",
+  "createdAt": "2026-11-10T08:05:00.000Z",
+  "updatedAt": "2026-11-21T10:05:00.000Z",
+  "publishedAt": "2026-11-10T08:05:00.000Z",
+  "publishAt": "2026-11-10T08:05:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null
+}

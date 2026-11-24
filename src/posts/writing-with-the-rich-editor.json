@@ -1,0 +1,21 @@
+{
+  "id": "writing-with-the-rich-editor",
+  "type": "post",
+  "title": "Writing with the rich editor",
+  "slug": "writing-with-the-rich-editor",
+  "content": "<p>The dashboard editor is designed for ordinary writing first. Formatting tools stay out of the way until you need them, and the saved value is clean HTML that your template can render everywhere.</p><h2>Formatting basics</h2><p>Use headings for structure, lists for steps and blockquotes for short pull statements. Keep paragraphs focused so the preview stays readable on small screens.</p><h2>Safe by default</h2><p>Scripts, event handlers and unsafe URLs are removed when content is sanitized. Trusted embeds and ordinary formatting survive, which keeps the editing experience flexible without putting the build at risk.</p><h2>Preview before publishing</h2><p>The editor updates the preview from the same content files used by the static build. If the preview looks right, the published route should look right too.</p>",
+  "status": "published",
+  "createdAt": "2026-11-14T11:20:00.000Z",
+  "updatedAt": "2026-11-14T11:20:00.000Z",
+  "publishedAt": "2026-11-14T11:20:00.000Z",
+  "publishAt": "2026-11-14T11:20:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "A quick tour of the dashboard writing tools and the HTML they produce.",
+  "labels": [
+    "Workflow",
+    "Tools"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

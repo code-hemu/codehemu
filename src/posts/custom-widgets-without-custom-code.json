@@ -1,0 +1,21 @@
+{
+  "id": "custom-widgets-without-custom-code",
+  "type": "post",
+  "title": "Custom widgets without custom code",
+  "slug": "custom-widgets-without-custom-code",
+  "content": "<p>Not every new widget needs a plugin. Many useful blocks are just a heading, a list and a little conditional markup that already exists in your template.</p><h2>Start from a built-in widget</h2><p>Duplicate a nearby widget in the layout editor, give it a clear title and choose a type that matches the data you need. The preview renderer already knows how to handle the standard Blogger widget types.</p><h2>Reuse defaults</h2><p>Default includables are your friend. A small <code>b:includable</code> can format every item in a collection, while <code>b:include</code> keeps the calling markup short and readable.</p><h2>Validate before styling</h2><p>Run the build after each structural change. Widget markup that parses cleanly is much easier to style than markup that only looks correct in the editor.</p>",
+  "status": "published",
+  "createdAt": "2026-11-16T16:45:00.000Z",
+  "updatedAt": "2026-11-16T16:45:00.000Z",
+  "publishedAt": "2026-11-16T16:45:00.000Z",
+  "publishAt": "2026-11-16T16:45:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "Use built-in widget types and default includables to extend a template safely.",
+  "labels": [
+    "Design",
+    "Widgets"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

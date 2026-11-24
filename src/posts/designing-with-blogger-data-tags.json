@@ -1,0 +1,21 @@
+{
+  "id": "designing-with-blogger-data-tags",
+  "type": "post",
+  "title": "Designing with Blogger data tags",
+  "slug": "designing-with-blogger-data-tags",
+  "content": "<p>Blogger data tags look verbose at first, but they map cleanly to the same values you use in any template system. Once you recognise the pattern, styling becomes much more predictable.</p><h2>Values you can rely on</h2><p>Use <code>&lt;data:blog.title/&gt;</code> for the site title, <code>&lt;data:view.title.escaped/&gt;</code> for the current page title and <code>&lt;data:posts/&gt;</code> for the active post collection.</p><pre><code>&lt;b:loop values='data:posts' var='post'&gt;\n  &lt;h2&gt;&lt;data:post.title/&gt;&lt;/h2&gt;\n&lt;/b:loop&gt;</code></pre><h2>Style the result, not the guess</h2><p>The preview renderer resolves these expressions before your CSS is evaluated. That means you can inspect real titles, dates, labels and author details instead of designing against placeholder text.</p><p>When a tag is unsupported, the renderer reports a diagnostic rather than hiding the problem. Keep an eye on those messages while editing complex conditionals.</p>",
+  "status": "published",
+  "createdAt": "2026-11-20T14:30:00.000Z",
+  "updatedAt": "2026-11-20T14:30:00.000Z",
+  "publishedAt": "2026-11-20T14:30:00.000Z",
+  "publishAt": "2026-11-20T14:30:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "A practical introduction to Blogger data expressions inside a modern preview workflow.",
+  "labels": [
+    "Tutorials",
+    "Blogger"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "about",
+  "type": "page",
+  "title": "About",
+  "slug": "about",
+  "content": "<p>This site is a small demonstration of a Blogger template compiled with Guchho. It uses the same template, content files and route rules that a real project would use.</p><h2>What you will find here</h2><ul><li>Posts about templates, content and preview workflows.</li><li>Short guides for editing widgets and Blogger data tags.</li><li>Example pages that show how static routes are generated.</li></ul><h2>Why this example exists</h2><p>The goal is to make the template easy to explore. Open the dashboard, change a setting, move a widget or edit a post, then rebuild to see the result in generated HTML.</p><p>Everything in this example is local content, so it is safe to experiment and replace with your own writing.</p>",
+  "status": "published",
+  "createdAt": "2026-11-10T08:00:00.000Z",
+  "updatedAt": "2026-11-21T10:00:00.000Z",
+  "publishedAt": "2026-11-10T08:00:00.000Z",
+  "publishAt": "2026-11-10T08:00:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null
+}

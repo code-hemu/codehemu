@@ -1,0 +1,21 @@
+{
+  "id": "a-practical-guide-to-content-models",
+  "type": "post",
+  "title": "A practical guide to content models",
+  "slug": "a-practical-guide-to-content-models",
+  "content": "<p>Content models are the quiet contract between your editor, your template and your build output. A small, consistent model makes every other part of the site easier to maintain.</p><h2>Posts and pages</h2><p>Posts are chronological. They carry labels, excerpts and comments, and they generate dated routes. Pages are evergreen. They use short <code>/p/</code> routes and intentionally avoid post-only fields.</p><h2>Fields that matter</h2><ul><li><strong>slug</strong> controls the public URL and should stay readable.</li><li><strong>status</strong> decides whether content appears in public output.</li><li><strong>publishAt</strong> supports scheduled publishing without changing files manually.</li></ul><h2>Keep the model boring</h2><p>Resist adding fields that the template never reads. A boring model is easy to validate, easy to migrate and easy to explain to the next person who edits the site.</p>",
+  "status": "published",
+  "createdAt": "2026-11-18T10:15:00.000Z",
+  "updatedAt": "2026-11-18T10:15:00.000Z",
+  "publishedAt": "2026-11-18T10:15:00.000Z",
+  "publishAt": "2026-11-18T10:15:00.000Z",
+  "trashedAt": null,
+  "featuredImage": null,
+  "excerpt": "Understand the difference between posts, pages and the fields that drive public routes.",
+  "labels": [
+    "Content",
+    "Tutorials"
+  ],
+  "author": "admin",
+  "allowComments": true
+}

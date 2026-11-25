@@ -7,8 +7,7 @@
     "build": "guchho build"
   },
   "devDependencies": {
-    // "@guchho/blogger": "file:..",
-    "@guchho/blogger": "^0.1.0",
+    "@guchho/blogger": "file:..",
     "guchho": "^1.1.0"
   }
 }
